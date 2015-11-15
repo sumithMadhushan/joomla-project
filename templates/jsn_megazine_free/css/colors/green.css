@@ -1,0 +1,131 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+a {
+	color: #429e00;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action {
+	border-bottom: 1px solid #429e00;
+}
+.link-action:hover {
+	background-color: #429e00;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #598321;
+	border-right: 1px groove #74AA2B;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #81BD2F;
+	border-right: 1px groove #81BD2F;
+}
+table.style-colorstripes thead th {
+	background-color: #47681A;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #598321;
+}
+table.style-colorstripes tbody tr {
+	background-color: #6A9C27;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #E8F4D7;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #598321;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #D6EDB6;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #4E721D;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #CCE9A5;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #81BD2F;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #47681A;
+}
+.sectiontableheader {
+	background-color: #5f9936;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #598321;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - MAIN MENU =============== */
+/* ----- CURRENT / HOVER STATE FIRST LEVEL ----- */
+div.jsn-modulecontainer ul.menu-mainmenu > li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu > li.active > a {
+	background: #6b9e2c;
+}
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
+	color: #6b9e2c;
+}
+/* =============== MENU - TREE MENU =============== */
+/* ----- CURRENT / HOVER STATE ----- */
+div.jsn-modulecontainer ul.menu-treemenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu ul li.active > a {
+	color: #6b9e2c;
+}
+/* =============== MENU - SIDE MENU =============== */
+/* ----- HOVER STATE IN SPECIFIC MODULE BOXES ----- */
+div.jsn-modulecontainer ul.menu-sidemenu ul li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu ul li.active > a {
+	color: #6b9e2c;
+}
+/* ----- ACTIVE STATE IN SPECIFIC MODULE BOXES ----- */
+div.jsn-modulecontainer ul.menu-sidemenu > li.active > a {
+	color: #6b9e2c;
+}
+/* ============================== SITE TOOLS ============================== */
+/* =============== SITE TOOLS - GENERAL PRESENTATION =============== */
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- RICHBOX ----- */
+div.richbox-2 div.jsn-modulecontainer_inner {
+	background-color: #6B9E2C;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - MOD_SEARCH =============== */
+#jsn-pos-top div.search input#mod_search_searchword {
+	border: 1px solid #477328;
+}
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* PAGE PAGINATION */
+ul.jsn-pagination li.navigation-page span {
+	background-color: #598321;
+}
+/* ============================== CSS3 EFFECTS ============================== */
+/* PAGE PAGINATION */
+ul.jsn-pagination li.navigation-page span {
+	background-image:linear-gradient(-90deg,rgb(95,153,54) 0%,rgb(36,64,16) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(95,153,54) 0%,rgb(36,64,16) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(95,153,54)),color-stop(1, rgb(36,64,16)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(95,153,54) 0%,rgb(36,64,16) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(95,153,54) 0%,rgb(36,64,16) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(95,153,54) 0%,rgb(36,64,16) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5f9936,endColorstr=#ff244010,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5f9936,endColorstr=#ff244010,GradientType=0);
+}
