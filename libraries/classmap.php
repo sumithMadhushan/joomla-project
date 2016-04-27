@@ -6,6 +6,7 @@
  * @license    GNU General Public License version 2 or later; see LICENSE
  */
 
+
 JLoader::registerAlias('JRegistry',           '\\Joomla\\Registry\\Registry');
 JLoader::registerAlias('JRegistryFormat',     '\\Joomla\\Registry\\AbstractRegistryFormat');
 JLoader::registerAlias('JRegistryFormatIni',  '\\Joomla\\Registry\\Format\\Ini');

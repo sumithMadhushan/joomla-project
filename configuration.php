@@ -1,5 +1,7 @@
 <?php
+
 class JConfig {
+
 	public $offline = '1';
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
@@ -20,6 +22,8 @@ class JConfig {
 	public $live_site = '';
 	public $secret = 'X4LRffefupvWBv6E';
 	public $gzip = '0';
+	//this is the url that we need
+	
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
@@ -80,6 +84,7 @@ class JConfig {
 	public $MetaRights = '';
 	public $sitename_pagetitles = '0';
 	public $force_ssl = '0';
+	//this is not needed
 	public $session_memcache_server_host = 'localhost';
 	public $session_memcache_server_port = '11211';
 	public $session_memcached_server_host = 'localhost';
